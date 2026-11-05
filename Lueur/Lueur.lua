@@ -73,7 +73,7 @@ local LOOK = { effect = true, size = true, intensity = true, offsetY = true, fol
 
 -- Bornes des réglages numériques, communes aux commandes et aux curseurs du menu
 local LIMITS = {
-	range     = { 5, 15 },  -- mesuré sur Forever 1.60.1 : la cible d'interaction se perd à 15 m, même avec 60 demandés
+	range     = { 5, 45 },  -- plafond configurable : Forever 1.60.1 peut limiter la cible réelle à 15 m, même avec 60 demandés
 	arc       = { 0, 2 },
 	offsetY   = { -200, 200 },
 	size      = { 40, 300 },
